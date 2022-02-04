@@ -1,0 +1,140 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Fira Sans', sans-serif;}
+
+    
+p{
+    padding-top: 5px;
+    font-size: 1.4rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    padding-top: 20px;
+}
+aside{
+    background-color: rgb(19, 2, 59);
+    text-align: center;
+}
+header{
+    background-image: url(../images/banner.jpg);
+    background-size:cover;
+    max-width: 100%;
+    padding: 150px 0 150px;
+    background-position: center;
+}
+
+.corsi{
+    background-color: azure;
+
+}
+
+
+
+.scrivici{
+padding-top: 50px;
+padding-bottom: 30px;
+color: #fff;
+}
+
+.we_are_coder{
+    text-align: center;
+    padding: 20px 20px 0;
+}
+
+@media screen and (min-width:768px){
+    .we_are_coder{
+        margin-left: 150px;
+        margin-right: 150px;
+    
+    }
+}
+
+
+
+.titolo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+costi{
+    display: flex;
+}
+
+.pricing-card1 {
+    background: rgb(145, 197, 190);
+    padding: 5rem 3rem;
+    text-align: center;
+    transform: skew(-10deg, 0);
+    height: 250px;
+    width: 100%;
+
+}
+
+.sottocosti{
+    background-color: lightgrey;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.card{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+.fakebutton{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.pricing-card2 {
+    background: red;
+    padding: 5rem 3rem;
+    text-align: center;
+    transform: skew(-10deg, 0);
+    height: 250px;
+width: 100%;
+}
+
+.pricing-card3 {
+    background: yellow;
+    padding: 5rem 3rem;
+    text-align: center;
+    transform: skew(-10deg, 0);
+    height: 250px;
+    width: 100%;
+
+}
+
+
+@media screen and (min-width:768px){
+    .costi{
+        display: flex;
+        width: auto;
+        justify-content: center;
+ }
+ .card{
+    border: none;
+    margin-top: 20px;
+    max-width: 33%;
+}
+}
+
+
+
+
+footer{
+    padding-left: 30px;
+    padding-right: 30px;
+}
